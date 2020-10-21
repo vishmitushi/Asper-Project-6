@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(129, 124, 124);
+}
+
+#navbar{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    min-height: 4rem;
+}
+
+#name{
+    display: inline-block;
+}
+
+#nav-links{
+    display: inline-block;
+    width: 73%;
+}
+
+#nav-ul{
+    text-align: right;
+
+    margin-right: 2rem;
+}
+
+.nav-li{
+    list-style: none;
+    display: inline;
+    font-size: 1.2em;
+    color:rgb(87, 83, 83);
+    padding: 0 1.2rem;
+}
+.button {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0061f2;
+  }
+
+/*-----------------------body------------------------------*/
+#body{
+    background-color: #0b29ad;
+    background-image: linear-gradient(225deg, #0b29ad 0%, #8207ad 69%);
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 0);
+}
+
+#body1{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#about{
+    padding: 5%;
+    width: 50%;
+    margin: 20% 0 30% 0;
+    display: inline-block;
+    font-size: 1.2rem;
+
+}
+#about div{
+    color: rgb(151, 148, 148);
+}
+#about span{
+    font-size: 3rem;
+    color: white;
+}
+
+#body-button{
+    font-size: 1.1rem;
+    background-color: whitesmoke;
+    width: 25%;
+    color: rgb(98, 8, 184) !important;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+
+#form{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 45%;
+    border-radius: 10px;
+
+}
+
+#form-title{
+    background-color: whitesmoke;
+    color: rgb(20, 79, 189);
+    font-size: 1.4rem;
+    border-radius: 10px 10px 0 0;
+    padding: 4%;
+}
+
+
+.input{
+    clear: both; 
+    display:inline-block; 
+    padding: 3% 3% 2% 3%; 
+    margin-left: 4%; 
+    border-radius: 20px;
+    border: 1px solid rgb(177, 173, 173) ;
+}
+
+.input1{
+    width: 90%;
+    padding: 3% 3% 2% 3%; 
+    margin: 0 4%; 
+    border-radius: 20px;
+    border: 1px solid rgb(177, 173, 173) ;
+
+}
+
+
+
+#names{
+    padding-top: 4%;
+}
+
+#names h3{
+    text-align: right;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#names ul{
+    list-style: none;
+    padding: 2% 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+#names li{
+    display: inline;
+    font-size: 2rem;
+    margin: 0 2%;
+
+}
+
+#cards{
+    background-color: rgb(238, 238, 238);
+    padding: 10% 0;
+    clip-path: polygon(100% 0, 100% 85%, 0 95%, 0 10%);
+}
+
+#card-button{
+    font-size: 1.1rem;
+    background-color: rgb(176, 146, 204);
+    width: 8%;
+    color: rgb(70, 16, 124) !important;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2px 5px;
+    margin-left: 10%;
+}
+
+#card{
+    width: 80%;
+    margin: 3% auto;
+
+}
+
+#left{
+    width: 45%;
+    padding: 5%;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 5px rgb(211, 205, 205);
+
+}
+#right{
+    width: 45%;
+    padding: 5.3% 5% 5% 5%;
+    margin-left:5% ;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 5px rgb(211, 205, 205);
+}
+
+.icon{
+    width: 25%;
+    padding: 6%;
+    margin: 3%;
+    border-radius: 20rem;
+    text-align: center;
+    background-color: #d5aee4;
+}
+
+#bottom{
+    padding:2% 5%;
+}
+
+#bottom-left{
+    display: inline-block;
+    width: 50%;
+    font-size: 1.3rem;
+    margin-left: 10%;
+}
+#bottom-right{
+    display: inline-block;
+    width: 30%;
+    margin-left: 9%;
+}
+#button2{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: rgb(117, 110, 110);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#button2:hover{
+    background-color: rgb(226, 220, 220);
+}
+/*---------------------footer------------------------*/
+footer{
+    
+    width: 100%;
+    color: rgb(139, 134, 134);
+    border-top: 1px solid  rgb(230, 228, 228);
+    padding-top: 2.5rem;
+ 
+}
+
+#foot-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.foot-div{
+    width: 19.7%;
+    display: inline-block;
+}
+#div1{
+    line-height: 2rem;
+
+}
+
+#div1 h4{
+    font-weight: lighter;
+}
+
+#div2,#div3,#div4,#div5{
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+#div2 ul,#div3 ul,#div4 ul,#div5 ul{
+    list-style: none;
+    margin-top: 1rem ;
+}
+
+#copyright{
+    width: 100%;
+    padding: 3rem 0;
+    font-size: 1.2rem;
+    border-top: 1px solid rgb(230, 228, 228);
+    margin-top: 1rem;
+}
+
+#copyright div{
+    width: 50%;
+    display: inline-block;
+}
